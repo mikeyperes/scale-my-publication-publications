@@ -4,7 +4,7 @@ WordPress plugin foundation for publication management inside Scale My Publicati
 
 ## Current State
 
-- Version: `0.1.0`
+- Version: `0.1.1`
 - Namespace: `smp_publications`
 - WordPress folder slug: `scale-my-publication-publications`
 - Settings page slug: `smp-publications`
@@ -18,4 +18,3 @@ This first release intentionally ships as a lightweight "Hello World" bootstrap 
 - `src/Content`: publication post types, taxonomies, and metadata.
 - `src/Integrations`: bridge code for HWS Base Tools, SFPF/verified profiles, Hexa PR Wire, and related systems.
 - `src/Support`: shared helpers and runtime utilities.
-

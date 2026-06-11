@@ -4,7 +4,7 @@
  * Description: Publication management foundation for Scale My Publication systems.
  * Author: Michael Peres
  * Plugin URI: https://github.com/mikeyperes/scale-my-publication-publications
- * Version: 0.1.0
+ * Version: 0.1.1
  * Text Domain: scale-my-publication-publications
  * Domain Path: /languages
  * Author URI: https://michaelperes.com
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 final class Config {
     public static $plugin_name        = 'Scale My Publication - Publications';
-    public static $plugin_version     = '0.1.0';
+    public static $plugin_version     = '0.1.1';
     public static $plugin_slug        = 'smp-publications';
     public static $plugin_folder_name = 'scale-my-publication-publications';
     public static $plugin_file        = 'initialization.php';
@@ -73,4 +73,3 @@ add_action( 'plugins_loaded', function(): void {
 if ( is_admin() ) {
     require_once __DIR__ . '/settings-dashboard.php';
 }
-

@@ -22,7 +22,7 @@ final class GitHub_Updater {
             require_once ABSPATH . 'wp-admin/includes/plugin.php';
         }
 
-        $plugin_data   = get_plugin_data( $config['plugin_file'] );
+        $plugin_data   = get_plugin_data( $config['plugin_file'], false, false );
         $github_repo   = trim( (string) $config['github_repo'], '/' );
         $github_branch = $config['github_branch'] ?? 'main';
         $runtime_slug  = plugin_basename( $config['plugin_file'] );
@@ -183,4 +183,3 @@ final class GitHub_Updater {
         return '';
     }
 }
-
