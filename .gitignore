@@ -1,7 +1,0 @@
-.DS_Store
-*.zip
-*.log
-node_modules/
-vendor/
-.env
-.env.*
